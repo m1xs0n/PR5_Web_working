@@ -1,0 +1,9 @@
+2023-12-08 18:00:32.319074+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CATEGORY" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.name from category c1_0 [42104-224]
+2023-12-08 18:01:05.413095+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUCT" not found (this database is empty); SQL statement:
+select p1_0.id,p1_0.category_id,p1_0.name,p1_0.photo,p1_0.price from product p1_0 offset ? rows fetch first ? rows only [42104-224]
+2023-12-08 18:01:19.631007+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUCT" not found (this database is empty); SQL statement:
+select p1_0.id,p1_0.category_id,p1_0.name,p1_0.photo,p1_0.price from product p1_0 offset ? rows fetch first ? rows only [42104-224]

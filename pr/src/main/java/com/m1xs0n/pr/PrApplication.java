@@ -1,0 +1,13 @@
+package com.m1xs0n.pr;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class PrApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PrApplication.class, args);
+	}
+
+}
